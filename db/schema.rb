@@ -25,6 +25,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_29_140921) do
     t.float "amount", null: false
     t.float "disbursement_amount"
     t.datetime "completed_at"
+    t.datetime "disbursed_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

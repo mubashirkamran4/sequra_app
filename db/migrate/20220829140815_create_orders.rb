@@ -6,6 +6,7 @@ class CreateOrders < ActiveRecord::Migration[7.0]
       t.float :amount, null: false
       t.float :disbursement_amount
       t.datetime :completed_at
+      t.datetime :disbursed_at
       t.timestamps
     end
   end
