@@ -14,7 +14,7 @@ which contains 2 extra attributes for disbursement calculation i.e. **disburseme
 It calculates the disbursed amount and stores it in `disbursement_amount` along with current timestamp at `disbursed_at` column.
 
 * The API endpoint is via `OrdersController` as information relates to Order.
-* Dockerizing and covering the code with test cases was also in my todo list which I couldn't.
+* Dockerizing and covering the code with test cases was also in my todo list which I couldn't manage to do.
 
 ### How to Run
 
